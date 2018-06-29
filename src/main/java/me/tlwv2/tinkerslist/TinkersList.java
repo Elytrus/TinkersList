@@ -12,10 +12,10 @@ import net.minecraftforge.fml.common.event.FMLPostInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = TinkersList.MODID, name = TinkersList.NAME, version = TinkersList.VERSION)
+@Mod(modid = "", useMetadata = true)
 public class TinkersList {
-    public static final String MODID = "tinkerslist";
-    public static final String NAME = "Tinkers' List";
+    public static final String MOD_ID = "tinkerslist";
+    public static final String NAME = "Tinkers' Listings";
     public static final String VERSION = "1.0";
 
     private static Logger logger;

@@ -62,8 +62,8 @@ dependencies {
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
     // http://www.gradle.org/docs/current/userguide/dependency_management.html
 
-//    deobfCompile "slimeknights.mantle:Mantle:1.12-1.3.2.21"
-    compile "slimeknights:TConstruct:1.12.2-2.10.1.87:deobf"
+    compile "slimeknights.mantle:Mantle:1.12-1.3.2.24:deobf"
+    compile "slimeknights:TConstruct:1.12.2-2.10.1.84:deobf"
 
 }
 

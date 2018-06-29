@@ -4,7 +4,7 @@ import slimeknights.tconstruct.library.materials.Material;
 
 public enum SortingValue {
     SortingValue(){
-        //
+        //TODO: Value types
     };
 
     public int compare(Material a, Material b){

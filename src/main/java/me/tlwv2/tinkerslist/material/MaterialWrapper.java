@@ -3,6 +3,7 @@ package me.tlwv2.tinkerslist.material;
 import slimeknights.tconstruct.library.materials.Material;
 
 public class MaterialWrapper implements Comparable<MaterialWrapper>{
+    //TODO: stuff
     private Material material;
     private SortingValue sortingValue;
 
@@ -13,6 +14,11 @@ public class MaterialWrapper implements Comparable<MaterialWrapper>{
 
     @Override
     public int compareTo(MaterialWrapper o) {
-        return 0;
+        return 0; //TODO: compareTo of MaterialWrapper
+    }
+
+    @Override
+    public String toString() {
+        return ""; //TODO: toString of MaterialWrapper
     }
 }
