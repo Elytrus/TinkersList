@@ -13,7 +13,13 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 public class CommonProxy {
     //TODO: Keybind Proxy Work
     public CommonProxy() {
-        //
+        /*
+        Init List:
+
+        Util.init
+        MaterialWrapperManager.init
+
+         */
     }
 
     public void preInit(FMLPreInitializationEvent event){

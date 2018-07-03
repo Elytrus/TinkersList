@@ -22,6 +22,7 @@ public class TinkersList {
     @SidedProxy(clientSide = "me.tlwv2.tinkerslist.proxy.ClientProxy",
             serverSide = "me.tlwv2.tinkerslist.proxy.ServerProxy")
     private static CommonProxy commonProxy;
+
     @Mod.Instance
     private static TinkersList instance;
 
