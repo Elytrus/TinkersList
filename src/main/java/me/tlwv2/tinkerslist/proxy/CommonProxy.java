@@ -1,5 +1,7 @@
 package me.tlwv2.tinkerslist.proxy;
 
+import me.tlwv2.tinkerslist.material.MaterialWrapperManager;
+import me.tlwv2.tinkerslist.material.Util;
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.event.RegistryEvent;
@@ -23,7 +25,8 @@ public class CommonProxy {
     }
 
     public void preInit(FMLPreInitializationEvent event){
-        //
+        Util.init();
+        MaterialWrapperManager.init();
     }
 
     public void init(FMLInitializationEvent event){

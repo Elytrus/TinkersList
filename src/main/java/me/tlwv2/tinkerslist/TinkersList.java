@@ -26,6 +26,10 @@ public class TinkersList {
     @Mod.Instance
     private static TinkersList instance;
 
+    public static TinkersList getInstance() {
+        return instance;
+    }
+
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         logger = event.getModLog();
